@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.8" productVersion="12.0.0" PIVersion="1.0.0.0" href="file:///C:\Users\Administrator\Desktop\表单\产品试产模板.xsn" name="urn:schemas-microsoft-com:office:infopath:W1EWQo:-myXSD-2018-01-31T00-41-26" ?><?mso-application progid="InfoPath.Document" versionProgid="InfoPath.Document.2"?><my:myFields xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-01-31T00:41:26" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xml:lang="zh-cn">
+	<my:公司名称></my:公司名称>
+	<my:事业处名称></my:事业处名称>
+	<my:部门名称></my:部门名称>
+	<my:试产负责人></my:试产负责人>
+	<my:产品编号></my:产品编号>
+	<my:预开工日期 xsi:nil="true"></my:预开工日期>
+	<my:预完工日期 xsi:nil="true"></my:预完工日期>
+	<my:产品名称></my:产品名称>
+	<my:产品规格></my:产品规格>
+	<my:接受单位1></my:接受单位1>
+	<my:接受单位2></my:接受单位2>
+	<my:接受单位3></my:接受单位3>
+	<my:接受单位4></my:接受单位4>
+	<my:项目编号></my:项目编号>
+	<my:项目名称></my:项目名称>
+	<my:项目负责人></my:项目负责人>
+	<my:试产数量></my:试产数量>
+	<my:试产单位></my:试产单位>
+</my:myFields>

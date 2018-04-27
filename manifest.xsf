@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+此文件由 Microsoft Office InfoPath 自动创建和修改。
+如果在 InfoPath 中修改表单模板，则在 InfoPath 以外对文件所做的更改可能会丢失。
+-->
+<xsf:xDocumentClass trustSetting="automatic" trustLevel="restricted" solutionFormatVersion="2.0.0.0" solutionVersion="1.0.0.3" productVersion="12.0.0" publishUrl="C:\Users\Administrator\Desktop\git_exercise\manifest.xsf" name="urn:schemas-microsoft-com:office:infopath:git-exercise:-myXSD-2018-02-02T08-03-12" xmlns:xsf="http://schemas.microsoft.com/office/infopath/2003/solutionDefinition" xmlns:xsf2="http://schemas.microsoft.com/office/infopath/2006/solutionDefinition/extensions" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdUtil="http://schemas.microsoft.com/office/infopath/2003/xslt/Util" xmlns:xdXDocument="http://schemas.microsoft.com/office/infopath/2003/xslt/xDocument" xmlns:xdMath="http://schemas.microsoft.com/office/infopath/2003/xslt/Math" xmlns:xdDate="http://schemas.microsoft.com/office/infopath/2003/xslt/Date" xmlns:xdExtension="http://schemas.microsoft.com/office/infopath/2003/xslt/extension" xmlns:xdEnvironment="http://schemas.microsoft.com/office/infopath/2006/xslt/environment" xmlns:xdUser="http://schemas.microsoft.com/office/infopath/2006/xslt/User" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-02-02T08:03:12" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<xsf:package>
+		<xsf:files>
+			<xsf:file name="myschema.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="namespace" type="string" value="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-02-02T08:03:12"></xsf:property>
+					<xsf:property name="editability" type="string" value="full"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="myFields"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="template.xml"></xsf:file>
+			<xsf:file name="sampledata.xml">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="sampleData"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="view1.xsl">
+				<xsf:fileProperties>
+					<xsf:property name="lang" type="string" value="2052"></xsf:property>
+					<xsf:property name="componentId" type="string" value="19"></xsf:property>
+					<xsf:property name="xmlToEditName" type="string" value="19"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+		</xsf:files>
+	</xsf:package>
+	<xsf:importParameters enabled="yes"></xsf:importParameters>
+	<xsf:documentVersionUpgrade>
+		<xsf:useTransform transform="" minVersionToUpgrade="0.0.0.0"></xsf:useTransform>
+	</xsf:documentVersionUpgrade>
+	<xsf:extensions>
+		<xsf:extension name="SolutionDefinitionExtensions">
+			<xsf2:solutionDefinition runtimeCompatibility="client" allowClientOnlyCode="no">
+				<xsf2:offline openIfQueryFails="yes" cacheQueries="yes"></xsf2:offline>
+			</xsf2:solutionDefinition>
+		</xsf:extension>
+	</xsf:extensions>
+	<xsf:views default="视图 1">
+		<xsf:view name="视图 1" caption="视图 1">
+			<xsf:editing>
+				<xsf:xmlToEdit name="备注_18" item="/my:myFields/my:group1/my:group2/my:备注">
+					<xsf:editWith type="rich" autoComplete="no" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="综合评价_19" item="/my:myFields/my:综合评价">
+					<xsf:editWith type="rich" autoComplete="no" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="项次_15" item="/my:myFields/my:group1/my:group2/my:项次">
+					<xsf:editWith type="rich" autoComplete="no" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="需求描述与改进建议_17" item="/my:myFields/my:group1/my:group2/my:需求描述与改进建议">
+					<xsf:editWith type="rich" autoComplete="no" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="group2_14" item="/my:myFields/my:group1/my:group2" container="/my:myFields">
+					<xsf:editWith caption="group2" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:group1/my:group2">
+								<my:group1>
+									<my:group2>
+										<my:反馈内容></my:反馈内容>
+										<my:需求描述与改进建议></my:需求描述与改进建议>
+										<my:备注></my:备注>
+										<my:项次></my:项次>
+									</my:group2>
+								</my:group1>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="反馈内容_16" item="/my:myFields/my:group1/my:group2/my:反馈内容">
+					<xsf:editWith type="rich" autoComplete="no" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+			</xsf:editing>
+			<xsf:menuArea name="msoInsertMenu">
+				<xsf:menu caption="节(&amp;S)">
+					<xsf:button action="xCollection::insert" xmlToEdit="group2_14" caption="group2"></xsf:button>
+				</xsf:menu>
+			</xsf:menuArea>
+			<xsf:menuArea name="msoStructuralEditingContextMenu">
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="group2_14" caption="在前面插入 group2" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="group2_14" caption="在后面插入 group2" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="group2_14" caption="删除 group2" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="group2_14" caption="插入 group2" showIf="immediate"></xsf:button>
+			</xsf:menuArea>
+			<xsf:mainpane transform="view1.xsl"></xsf:mainpane>
+		</xsf:view>
+	</xsf:views>
+	<xsf:applicationParameters application="InfoPath Design Mode">
+		<xsf:solutionProperties lastOpenView="view1.xsl" fullyEditableNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-02-02T08:03:12"></xsf:solutionProperties>
+	</xsf:applicationParameters>
+	<xsf:documentSchemas>
+		<xsf:documentSchema rootSchema="yes" location="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-02-02T08:03:12 myschema.xsd"></xsf:documentSchema>
+	</xsf:documentSchemas>
+	<xsf:fileNew>
+		<xsf:initialXmlDocument caption="git_exercise" href="template.xml"></xsf:initialXmlDocument>
+	</xsf:fileNew>
+</xsf:xDocumentClass>

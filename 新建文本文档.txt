@@ -1,0 +1,17 @@
+https://open.kingdee.com/k3cloud/open/
+云之家账号 
+102338783
+用户名 
+陈立志
+云之家账号 
+102338783
+手机 
+18674135369
+邮箱 
+SVN账号 
+陈立志_kd
+开发商代码 
+PMTP
+F_PAEZ_BaseProperty14
+F_PAEZ_BaseProperty141
+Kingdee.BOS.Business.DynamicForm.PlugIn.SelBillList, Kingdee.BOS.Business.DynamicForm

@@ -1,0 +1,25 @@
+<my:myFields xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-02-02T08:03:12" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<my:项目编号/>
+	<my:项目名称/>
+	<my:项目负责人/>
+	<my:产品编号/>
+	<my:产品名称/>
+	<my:产品规格/>
+	<my:反馈人工号/>
+	<my:反馈人姓名/>
+	<my:反馈日期/>
+	<my:group1>
+		<my:group2>
+			<my:反馈内容/>
+			<my:需求描述与改进建议/>
+			<my:备注/>
+			<my:项次/>
+		</my:group2>
+	</my:group1>
+	<my:综合评价/>
+	<xd:SchemaInfo LocalName="myFields" NamespaceURI="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-02-02T08:03:12">
+		<xd:Namespaces>
+			<xd:Namespace LocalName="myFields" NamespaceURI="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-02-02T08:03:12"/>
+		</xd:Namespaces>
+	</xd:SchemaInfo>
+</my:myFields>

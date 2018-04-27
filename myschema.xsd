@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema targetNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-02-02T08:03:12" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-02-02T08:03:12" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="myFields">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:项目编号" minOccurs="0"/>
+				<xsd:element ref="my:项目名称" minOccurs="0"/>
+				<xsd:element ref="my:项目负责人" minOccurs="0"/>
+				<xsd:element ref="my:产品编号" minOccurs="0"/>
+				<xsd:element ref="my:产品名称" minOccurs="0"/>
+				<xsd:element ref="my:产品规格" minOccurs="0"/>
+				<xsd:element ref="my:反馈人工号" minOccurs="0"/>
+				<xsd:element ref="my:反馈人姓名" minOccurs="0"/>
+				<xsd:element ref="my:反馈日期" minOccurs="0"/>
+				<xsd:element ref="my:group1" minOccurs="0"/>
+				<xsd:element ref="my:综合评价" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax" namespace="http://www.w3.org/XML/1998/namespace"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="项目编号" type="xsd:string"/>
+	<xsd:element name="项目名称" type="xsd:string"/>
+	<xsd:element name="项目负责人" type="xsd:string"/>
+	<xsd:element name="产品编号" type="xsd:string"/>
+	<xsd:element name="产品名称" type="xsd:string"/>
+	<xsd:element name="产品规格" type="xsd:string"/>
+	<xsd:element name="反馈人工号" type="xsd:string"/>
+	<xsd:element name="反馈人姓名" type="xsd:string"/>
+	<xsd:element name="反馈日期" type="xsd:string"/>
+	<xsd:element name="group1">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:group2" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="group2">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:反馈内容" minOccurs="0"/>
+				<xsd:element ref="my:需求描述与改进建议" minOccurs="0"/>
+				<xsd:element ref="my:备注" minOccurs="0"/>
+				<xsd:element ref="my:项次" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="反馈内容">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="需求描述与改进建议">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="备注">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="项次">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="综合评价">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
